@@ -1,0 +1,25 @@
+<div class="footer-wrapper">
+  <div class="logo-wrapper">
+    <a href="{{logo.href}}">
+      <img src="{{logo.img}}">
+    </a>
+  </div>
+
+  <div class="social-links">
+    {{#each socialLinks}}
+    <a href="{{href}}">
+      <img src="{{img}}">
+    </a>
+    {{/each}}
+  </div>
+
+  <div class="links">
+    {{#each links}}
+      <a href="{{href}}">{{linkText}}</a>
+    {{/each}}
+  </div>
+
+  <div class="copy-right">
+    <p>{{{copyRight}}}</p>
+  </div>
+</div>

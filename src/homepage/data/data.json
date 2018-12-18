@@ -67,5 +67,62 @@
         "href": "/about/"
       }
     }
+  },
+  "externalLinks": {
+    "title": "As Seen In",
+    "links": [{
+        "href": "/link1/",
+        "img": "img1.jpg"
+      }, {
+        "href": "/link2/",
+        "img": "img2.jpg"
+      }, {
+        "href": "/link3/",
+        "img": "img3.jpg"
+      }, {
+        "href": "/link4/",
+        "img": "img4.jpg"
+      }]
+  },
+  "masthead": {
+    "img": "image1.jpg",
+    "title": "Get Started Today",
+    "cta": {
+      "href": "/about/",
+      "ctaText": "Get your first box"
+    }
+  },
+  "footer": {
+    "logo": {
+      "img": "logo.jpg",
+      "href": "/homepage/"
+    },
+    "socialLinks": [{
+      "img": "facebook.jpg",
+      "href": "facebook.com"
+    }, {
+      "img": "insta.jpg",
+      "href": "instagram.com"
+    }, {
+      "img": "twitter.jpg",
+      "href": "twitter.com"
+    }],
+    "links": [{
+      "linkText": "Contact Us",
+      "href": "/contact/"
+    }, {
+      "linkText": "FAQ",
+      "href": "/faq/"
+    }, {
+      "linkText": "Need An Exam?",
+      "href": "/exam/"
+    }, {
+      "linkText": "Privacy",
+      "href": "/privacy/"
+    }, {
+      "linkText": "Terms of Service",
+      "href": "/terms/"
+    }],
+    "copyRight": "&copy; Contacts. All rights reserved"
   }
 }

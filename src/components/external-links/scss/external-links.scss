@@ -1,0 +1,23 @@
+@import '../../../common/scss/common';
+
+.external-links-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .links {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    a {
+      display: flex;
+      padding: 20px;
+      img {
+        background: gray;
+        width: 200px;
+        height: 100px;
+      }
+    }
+  }
+}
