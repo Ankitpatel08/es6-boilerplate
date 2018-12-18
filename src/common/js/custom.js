@@ -2,11 +2,6 @@ import Cookie from 'js-cookie';
 import 'jquery';
 
 // // Common JS file: to add global js functionality. e.g.: getCurrentQuery, Event Emitter, polyfill etc.
-// var handleBars = require('handlebars/runtime');
-// handleBars.registerHelper('markdown', require('helper-markdown'));
-// handleBars.registerHelper('counter', function(index) {
-//   return index + 2;
-// });
 
 // Cross browser window width.
 var windowWidth =
@@ -40,7 +35,7 @@ exports.getCurrentQuery = function getCurrentQuery() {
   if (/MSIE 9/i.test(window.navigator.userAgent)) {
     if (windowWidth <= 599) {
       return 'phone';
-    } else if (windowWidth >= 300 && windowWidth <= 767) {
+    } else if (windowWidth >= 600 && windowWidth <= 767) {
       return 'phablet';
     } else if (windowWidth >= 768 && windowWidth <= 1024) {
       return 'tablet';

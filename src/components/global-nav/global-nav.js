@@ -1,8 +1,6 @@
 import './scss/global-nav.scss';
 import GlobalNavStaticTpl from './tpl/global-nav-static.hbs';
 
-let appName = $('body').data('app-name');
-
 /**
  * APP: All
  * renders global nav
@@ -13,8 +11,12 @@ export default class GlobalNav {
   /**
    * @param {*} options contains data to render component.
    */
-  constructor(options) {
-    $('#GlobalNav').html(GlobalNavStaticTpl());
+  constructor() {
+    let template = GlobalNavStaticTpl();
+
+    this.globalNav = document.getElementById('GlobalNav');
+
+    this.globalNav.innerHTML = template;
 
     this.globalNavBtn = document.querySelector('.global-nav-button');
     this.hamburgerMenu = document.querySelector('.hamburger-menu');

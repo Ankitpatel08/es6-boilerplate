@@ -1,6 +1,5 @@
 import './scss/hp-background.scss';
 import slick from 'slick-carousel';
-import util from '../../common/js/custom.js';
 
 import HPBackgroundTpl from './tpl/hp-background.hbs';
 
@@ -17,7 +16,12 @@ export default class HPBackground {
    * @param {*} options contains data to render HPBackground
    */
   constructor(options) {
-    $('#HPBackground').append(HPBackgroundTpl(options));
+    const template = HPBackgroundTpl(options);
+
+    this.HPBackground = document.getElementById('HPBackground');
+
+    this.HPBackground.innerHTML = template;
+
     // super();
     this._init();
   }
