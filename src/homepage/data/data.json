@@ -13,5 +13,59 @@
           "description": ""
         }
       ]
+  },
+  "infoSection": {
+    "title": "How It works?",
+    "cards": [{
+        "img": "img1.jpg",
+        "title": "Card Title 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+      }, {
+        "img": "img1.jpg",
+        "title": "Card Title 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+      }, {
+        "img": "img1.jpg",
+        "title": "Card Title 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+      }],
+      "cta": {
+        "ctaText": "Getting Started",
+        "href": "/about/"
+      }
+  },
+  "InfoBox1": {
+    "id": "InfoBox1",
+    "class":"info-box-1",
+    "contentBox1": {
+      "img": "image1.jpg"
+    },
+    "contentBox2": {
+      "img": "image.jpg",
+      "title": "This is infobox 1 Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "subTitle": "This is infobox 1 subtitle",
+      "cta": {
+        "ctaText": "GET FREE 1",
+        "href": "/about/"
+      }
+    }
+  },
+  "InfoBox2": {
+    "id": "InfoBox2",
+    "class":"info-box-2 reverse",
+    "contentBox1": {
+      "img": "image1.jpg"
+    },
+    "contentBox2": {
+      "img": "image.jpg",
+      "title": "This is infobox 2 Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "subTitle": "This is infobox 2 subtitle",
+      "cta": {
+        "ctaText": "GET FREE 2",
+        "href": "/about/"
+      }
+    }
   }
 }

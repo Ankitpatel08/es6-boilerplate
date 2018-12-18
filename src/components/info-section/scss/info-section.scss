@@ -1,0 +1,27 @@
+@import '../../../common/scss/common';
+
+.infosection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .infosection-cards-wrapper {
+    display: flex;
+    flex-direction: row;
+
+    .infocard-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 300px;
+
+      img {
+        height: 120px;
+        width: 120px;
+        background: rgb(124, 124, 196);
+        border-radius: 100%;
+      }
+    }
+  }
+}
+

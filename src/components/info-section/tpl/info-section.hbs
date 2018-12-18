@@ -1,0 +1,11 @@
+<div class="infosection-container">
+  <h1>{{title}}</h1>
+
+  <div class="infosection-cards-wrapper">
+    {{#each cards}}
+    {{> info-card this}}
+    {{/each}}
+  </div>
+
+  <a href="{{cta.href}}">{{cta.ctaText}}</a>
+</div>
