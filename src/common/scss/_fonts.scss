@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+ @font-face {
+   font-family: 'Adamina Regular';
+   src: url("/common/fonts/Adamina-Regular.ttf") format("ttf");
+   font-style: normal;
+ }
+
+$Adamina-font: 'Adamina Regular';

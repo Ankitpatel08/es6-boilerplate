@@ -1,0 +1,10 @@
+// will add browser specific prefix to css properties
+@mixin vendor-prefix($declarations, $prefixes: ()) {
+    @each $property, $value in $declarations {
+        @each $prefix in $prefixes {
+            #{'-' + $prefix + '-' + $property}: $value;
+        }
+
+        #{$property}: $value;
+    }
+}

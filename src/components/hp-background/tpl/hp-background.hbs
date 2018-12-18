@@ -1,0 +1,19 @@
+<div class="hp-background hp-slider single-item">
+    {{#each slider}}
+    <div class="hp-background-slide">
+        <div class="slide-content">
+            <img src={{img}} />
+            <div class="content-wrapper">
+                <div class="content">
+                    <h1 class="hp-slide-title">
+                        {{title}}
+                    </h1>
+                    <div class="hp-slide-description">
+                        <h4>{{{ description }}} </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>

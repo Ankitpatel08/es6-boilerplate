@@ -1,0 +1,41 @@
+@import '../../../common/scss/common';
+@import '~slick-carousel/slick/slick.css';
+
+.wrapper {
+  overflow: hidden;
+}
+
+.slick-arrow {
+  display: none !important;
+}
+
+.hp-background {
+
+  .slick-list {
+    max-height: 50vh;
+  }
+
+  .slick-slide {
+    height: auto;
+
+    img {
+      height: 100%;
+      width: 100%;
+      transform: scale(1.05);
+      transition: all 2s ease-in;
+    }
+  }
+
+  .slick-active {
+    img {
+      -webkit-transition: all 2s ease-out;
+      transition: all 2s ease-out;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+}
+
+.slick-dots {
+  bottom: 85px !important;
+}

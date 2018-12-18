@@ -1,0 +1,17 @@
+{
+  "hpBackground": {
+    "slider":
+      [
+        {
+          "img": "../components/images/slider/slide-1.jpg",
+          "title": "",
+          "description": ""
+        },
+        {
+          "img": "../components/images/slider/slide-2.jpg",
+          "title": "",
+          "description": ""
+        }
+      ]
+  }
+}
