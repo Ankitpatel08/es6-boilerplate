@@ -17,15 +17,15 @@
   "infoSection": {
     "title": "How It works?",
     "cards": [{
-        "img": "img1.jpg",
+        "img": "https://via.placeholder.com/150",
         "title": "Card Title 1",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
       }, {
-        "img": "img1.jpg",
+        "img": "https://via.placeholder.com/150",
         "title": "Card Title 1",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
       }, {
-        "img": "img1.jpg",
+        "img": "https://via.placeholder.com/150",
         "title": "Card Title 1",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
       }],
@@ -38,10 +38,10 @@
     "id": "InfoBox1",
     "class":"info-box-1",
     "contentBox1": {
-      "img": "image1.jpg"
+      "img": "https://via.placeholder.com/500"
     },
     "contentBox2": {
-      "img": "image.jpg",
+      "img": "https://via.placeholder.com/150",
       "title": "This is infobox 1 Title",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "subTitle": "This is infobox 1 subtitle",
@@ -55,10 +55,10 @@
     "id": "InfoBox2",
     "class":"info-box-2 reverse",
     "contentBox1": {
-      "img": "image1.jpg"
+      "img": "https://via.placeholder.com/500"
     },
     "contentBox2": {
-      "img": "image.jpg",
+      "img": "https://via.placeholder.com/150",
       "title": "This is infobox 2 Title",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "subTitle": "This is infobox 2 subtitle",
@@ -72,20 +72,20 @@
     "title": "As Seen In",
     "links": [{
         "href": "/link1/",
-        "img": "img1.jpg"
+        "img": "https://via.placeholder.com/200"
       }, {
         "href": "/link2/",
-        "img": "img2.jpg"
+        "img": "https://via.placeholder.com/200"
       }, {
         "href": "/link3/",
-        "img": "img3.jpg"
+        "img": "https://via.placeholder.com/200"
       }, {
         "href": "/link4/",
-        "img": "img4.jpg"
+        "img": "https://via.placeholder.com/200"
       }]
   },
   "masthead": {
-    "img": "image1.jpg",
+    "img": "https://via.placeholder.com/200",
     "title": "Get Started Today",
     "cta": {
       "href": "/about/",
@@ -94,17 +94,17 @@
   },
   "footer": {
     "logo": {
-      "img": "logo.jpg",
+      "img": "https://via.placeholder.com/200",
       "href": "/homepage/"
     },
     "socialLinks": [{
-      "img": "facebook.jpg",
+      "img": "https://via.placeholder.com/100",
       "href": "facebook.com"
     }, {
-      "img": "insta.jpg",
+      "img": "https://via.placeholder.com/100",
       "href": "instagram.com"
     }, {
-      "img": "twitter.jpg",
+      "img": "https://via.placeholder.com/100",
       "href": "twitter.com"
     }],
     "links": [{
