@@ -1,0 +1,39 @@
+{
+  "galleryData": [{
+    "category": "animals",
+    "images": [{
+      "imageId": "animal_1",
+      "imageSrc": "../common/images/gallery-slider/animals/animal_1.jpg"
+    }, {
+      "imageId": "animal_2",
+      "imageSrc": "../common/images/gallery-slider/animals/animal_1.jpg"
+    }, {
+      "imageId": "animal_3",
+      "imageSrc": "../common/images/gallery-slider/animals/animal_1.jpg"
+    }, {
+      "imageId": "animal_4",
+      "imageSrc": "../common/images/gallery-slider/animals/animal_1.jpg"
+    }, {
+      "imageId": "animal_5",
+      "imageSrc": "../common/images/gallery-slider/animals/animal_1.jpg"
+    }]
+  }, {
+    "category": "landscape",
+    "images": [{
+      "imageId": "animal_1",
+      "imageSrc": "../common/images/gallery-slider/animals/animal_1.jpg"
+    }, {
+      "imageId": "animal_2",
+      "imageSrc": "../common/images/gallery-slider/animals/animal_1.jpg"
+    }, {
+      "imageId": "animal_3",
+      "imageSrc": "../common/images/gallery-slider/animals/animal_1.jpg"
+    }, {
+      "imageId": "animal_4",
+      "imageSrc": "../common/images/gallery-slider/animals/animal_1.jpg"
+    }, {
+      "imageId": "animal_5",
+      "imageSrc": "../common/images/gallery-slider/animals/animal_1.jpg"
+    }]
+  }]
+}

@@ -3,7 +3,7 @@ const path = require('path');
 const ExtractCssChunks = require('extract-css-chunks-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-var apps = process.env.APPS ? process.env.APPS : ['homepage'];
+var apps = process.env.APPS ? process.env.APPS : ['homepage', 'gallery'];
 var COPY_ARRAY = [];
 
 const config = {
